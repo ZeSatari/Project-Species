@@ -27,6 +27,9 @@ The Paper B script also greps the manuscript for each verified value, which
 catches numbers that were superseded but left in the text, and counts the
 `\TBD{}` markers, which must be zero before submission.
 
+The repository is at
+<https://anonymous.4open.science/r/Project-Species-D075>.
+
 ## For reviewers: what can be checked, and at what cost
 
 The fitted model objects are outputs, not inputs, and are too large to ship
