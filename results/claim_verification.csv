@@ -1,0 +1,70 @@
+"id","where","claim","value","expected","pass"
+"R1.1","Results 3.1.1","baseline alpha0 bias is 0.10 to 0.12 across regimes",0.117072802349653,0.117,TRUE
+"R1.2.independent","Results 3.1.1 / tab:s2-recovery","M1 alpha0 coverage, independent",0.655,0.655,TRUE
+"R1.3.independent","Results 3.1.1 / tab:s2-recovery","M2 alpha0 coverage, independent",0.94,0.94,TRUE
+"R1.2.shared","Results 3.1.1 / tab:s2-recovery","M1 alpha0 coverage, shared",0.55,0.55,TRUE
+"R1.3.shared","Results 3.1.1 / tab:s2-recovery","M2 alpha0 coverage, shared",0.93,0.93,TRUE
+"R1.2.observer","Results 3.1.1 / tab:s2-recovery","M1 alpha0 coverage, observer",0.595,0.595,TRUE
+"R1.3.observer","Results 3.1.1 / tab:s2-recovery","M2 alpha0 coverage, observer",0.855,0.855,TRUE
+"R1.4","Results 3.1.1","largest M1-M2 difference in occupancy bias is 0.012",0.0116896415295813,0.012,TRUE
+"R1.7","Abstract / Highlights / Results / Discussion","M2 alpha0 coverage: maximum is 0.940, quoted as 0.94",0.94,0.94,TRUE
+"R1.8","Abstract / Highlights / Results / Discussion","M2 alpha0 coverage: minimum is 0.855, quoted as 0.86",0.855,0.855,TRUE
+"R1.9","Abstract / Highlights / Discussion","M1 alpha0 coverage: minimum is 0.550, quoted as 0.55",0.55,0.55,TRUE
+"R1.10","Abstract / Highlights / Discussion","M1 alpha0 coverage: maximum is 0.655, quoted as 0.66",0.655,0.655,TRUE
+"R1.11","Results 3.1.1 / Discussion","M2 alpha0 bias range 0.016 to 0.060",0.0600467121602597,0.06,TRUE
+"R1.12","Limitations / Conclusions","observer regime: M2 alpha0 bias 0.060",0.0600467121602597,0.06,TRUE
+"R1.13","Limitations / Conclusions","observer regime: M2 alpha0 coverage 0.855",0.855,0.855,TRUE
+"R1.14","Results 3.1.1 / Discussion / Abstract","confounded regime: alpha2 bias is 7.5% of the generating value",7.49770100592472,7.5,TRUE
+"R1.15","Results 3.1.1","independent regime: alpha2 bias -0.010",-0.00958851865098764,-0.01,TRUE
+"R1.16","Results 3.1.1","the two reconcile: 0.053 minus (-0.010) is the 0.062 displacement",0.0620724256924606,0.062,TRUE
+"R1.17","Results 3.1.1 / tab:s2-confounded","confounded regime: beta0 bias 0.049",0.0490399823980023,0.049,TRUE
+"R1.18","Results 3.1.1 / tab:s2-confounded","confounded regime: alpha0 coverage 0.950",0.95,0.95,TRUE
+"R1.19","Results 3.1.1 / tab:s2-confounded","confounded regime: beta1 coverage 0.895",0.895,0.895,TRUE
+"R1.20","Discussion 4.2","shared regime: M2 beta0 bias 0.011",0.0113449770364843,0.011,TRUE
+"R1.21","Discussion 4.2","shared regime: M2 beta0 coverage 0.870",0.87,0.87,TRUE
+"R1.22","Discussion 4.2","independent regime: M2 beta0 bias 0.022",0.0215728975613567,0.022,TRUE
+"R1.23","Discussion 4.2","independent regime: M2 beta0 coverage 0.905",0.905,0.905,TRUE
+"R1.5","Results 3.1.1","M2 achieved lower WAIC in every replicate",1,1,TRUE
+"R1.6","Results 3.1.1","ULOOCV gains 0.0058 / 0.0062 / 0.0024",0.00578238683643912,0.0058,TRUE
+"R1.24","Appendix S1.1","bias at sigma ~ 0 is -0.018, so the field is not the mechanism",-0.0179227641013258,-0.018,TRUE
+"R1.25","Appendix S1.1","Monte Carlo SE of the control bias is 0.008",0.00793515325856197,0.008,TRUE
+"R1.26","Appendix S1.1","weighted slope of bias on sigma is -0.019",-0.0187304920637276,-0.019,TRUE
+"R1.27","Appendix S1.1","slope SE is 0.012, so the trend is not resolved at R = 40",0.011827267487222,0.012,TRUE
+"R1.28","Appendix S1.1","coverage stays within 0.925-0.975 across field variances",1,1,TRUE
+"R9.1","Limitations / Appendix S4","MCMC biotic coefficient 0.403",0.402725046512491,0.403,TRUE
+"R9.2","Limitations / Appendix S4","MCMC linear elevation -1.46 under M2",-1.45766732335128,-1.458,TRUE
+"R9.3","Limitations / Appendix S4","MCMC linear elevation -1.48 under M1",-1.47636084042248,-1.476,TRUE
+"R9.4","Limitations / Appendix S4","biotic coefficient agrees to within 0.26 posterior SD",0.259304139550492,0.26,TRUE
+"R9.5","Limitations / Appendix S4","linear elevation differs by nearly three posterior SD",2.95033989701633,2.95,TRUE
+"R9.6","Limitations","alpha_2 spans 0.4168 to 0.4179 across six prior specifications",0.416799872746488,0.4168,TRUE
+"R9.7","Limitations","that spread is 0.02 of one posterior SD",0.0198694849982469,0.02,TRUE
+"R9.8","Limitations","practical range stays between 2.96 and 3.42 km",1,1,TRUE
+"R9.9","Limitations","marginal standard deviation stays between 2.64 and 3.17",1,1,TRUE
+"R9.10","Limitations","linear elevation moves 0.39 of a posterior SD",0.38778441989099,0.39,TRUE
+"R2.1","Results 3.1.2 / tab:det-emp","biotic coefficient 0.419",0.418649578862165,0.419,TRUE
+"R2.2","Results 3.1.2","biotic 95% CrI lower 0.310",0.309851637315508,0.31,TRUE
+"R2.3","Results 3.1.2","biotic 95% CrI upper 0.523",0.523363898159761,0.523,TRUE
+"R2.4","Results 3.1.2","detection probability rises from 0.505 to 0.608",0.504707173347881,0.505,TRUE
+"R2.5","Results 3.1.2","detection probability with biotic detection",0.607658122363591,0.608,TRUE
+"R2.6","Results 3.1.2","day and tod credible intervals span zero",1,1,TRUE
+"R2.7","Results 3.1.2","WAIC M1 9936.5",9936.66668447731,9936.5,TRUE
+"R2.8","Results 3.1.2","WAIC M2 9886.0",9886.14526769126,9886,TRUE
+"R2.9","Results 3.1.2","ULOOCV improves by 0.008",0.00821704756551012,0.008,TRUE
+"R2.10","Results 3.1.2","elevation shift 1.7 posterior SD",1.68512662314251,1.7,TRUE
+"R2.11","Results 3.1.2","elevation^2 shift 3.2 posterior SD",3.15917940443562,3.2,TRUE
+"R2.12","Results 3.1.2","SD inflation 5.9 (linear)",5.8893724583501,5.9,TRUE
+"R2.13","Results 3.1.2","SD inflation 3.8 (quadratic)",3.82064791020006,3.8,TRUE
+"R4.7","Results 3.2.2","BLPW naive occupancy 0.096",0.0963035019455253,0.096,TRUE
+"R4.11","Results 3.2.2","prevalence ranges from 2.3% to 73.3%",73.313878080415,73.3,TRUE
+"R2.14","Results 3.1.2 / Limitations","all twelve species converged under the final mesh",12,12,TRUE
+"R7.1","Results 3.1.2 / Limitations","fine-mesh range exceeds the maximum inter-site distance",1,1,TRUE
+"R7.2","Results 3.1.2 / Limitations","maximum inter-site distance 7.7 km",7.73886296557937,7.74,TRUE
+"R7.3","Results 3.1.2","coarse-fine range difference dwarfs the fine mesh's own spread",36.4127647854816,36,TRUE
+"R7.4","Results 3.1.2 / tab:mesh","coarse mesh range 3.27 km",3.26761806495116,3.27,TRUE
+"R7.5","Results 3.1.2 / tab:mesh","coarse mesh sigma 3.09",3.09305694131022,3.09,TRUE
+"R7.6","Results 3.1.2 / tab:mesh","fine mesh sigma about 14",14.0119200887339,14,TRUE
+"R7.7","Results 3.1.2","fine mesh achieved the lower WAIC",1,1,TRUE
+"R7.8","Results 3.1.2","M1 coarse range is 42% of the domain diameter",42.2234904466554,42.2,TRUE
+"R6.1","Results 3.1.2 / tab:missing","biotic coefficient moves by at most 0.02 posterior SD across treatments",0.0155343153573559,0.02,TRUE
+"R6.2","Results 3.1.2","all three treatments use the same 8770 records",1,1,TRUE
+"R6.3","Results 3.1.2","WAIC spread across treatments is 0.5",0.517586236070201,0.5,TRUE
