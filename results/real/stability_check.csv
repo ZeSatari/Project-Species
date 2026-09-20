@@ -1,0 +1,7 @@
+"model","strategy","try","ok","beta0","secs"
+"M1","simplified.laplace",1,TRUE,1.69051428766264,316.81
+"M1","simplified.laplace",2,TRUE,1.68944206910581,155.17
+"M1","simplified.laplace",3,TRUE,1.68996459567955,109.27
+"M2","simplified.laplace",1,TRUE,1.70191729707419,144.79
+"M2","simplified.laplace",2,TRUE,1.70362096627361,133.5
+"M2","simplified.laplace",3,TRUE,1.70091113784992,132.41
